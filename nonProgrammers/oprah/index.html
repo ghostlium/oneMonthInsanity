@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oprah Likes You. And so do other people.</title>
+
+		<style>
+			
+			/* Basic CSS comment */	
+			body {
+				background: #BBB;
+				color: white;
+				width: 960px;
+				margin: 0 auto;
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #333	;
+			}
+
+		</style>
+
+		<script>
+			//this is a comment
+			/*this too is a comment*/
+			//alert("git gud scrub");
+			//document.write("wassup");
+			//imagine using vars
+			let username = prompt("name bestieee")
+			//let lastname = "Mama";
+			//let fullname = username+" "+lastname
+			let a = 1
+			let b = 2
+			let c = a + b
+			let responses = ["<h1>hello "+username+", ur kinda cool</h1>",
+			"<h1>hello bestieee "+username+"</h1>","<h1>stinky "+username+"</h1>"]
+			let validNames = ["jeam","etahn"]
+			function bruh(){
+				for(let i = 0; i<=responses.length-1; i++){
+					if(username == validNames[i]){
+						return responses[i]
+					}else if (i==responses.length-1){
+						return responses[i]
+					}
+				}
+			}
+			
+			document.write(bruh())
+			/*
+			if(username == "jeam"){
+				document.write("<h1>hello "+username+", ur kinda cool</h1>")
+			}else if(username == "etahn"){
+				document.write("<h1>hello bestieee "+username+"</h1>")
+			}else{
+				document.write("<h1>stinky "+username+"</h1>")
+			}
+			document.write("<h1>"+c+"</h1>")*/
+		</script>
+	</head>
+ 	
+	<body>
+		<!---h1>hello bro</h1>-->
+	</body>
+
+</html>
