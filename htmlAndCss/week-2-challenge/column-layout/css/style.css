@@ -28,4 +28,22 @@ Developed @ One Month in NYC
 =02 LAYOUT 
 -----------------------------------------------------------------------------*/
 
+#container {
+     width: 1000px;
+     margin: 0 auto 0 auto;
+}
 
+#header {
+     background: Silver;
+     padding: 50px;
+}
+
+#main {
+     background: SkyBlue;
+     padding: 50px;
+}
+
+#footer {
+     background: PeachPuff;
+     padding: 50px;
+}
