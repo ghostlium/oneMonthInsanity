@@ -1,0 +1,100 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+     font-family: lato;
+     background: url(../images/notebook.png);
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+#container {
+     width: 1000px;
+     margin: 0 auto 0 auto;
+}
+
+#header {
+     padding: 50px;
+}
+
+#main {
+     background: White;
+     padding: 50px;
+     width: 670px;
+     margin-left: 15px;
+     float: left;
+}
+
+#sidebar {
+     background: White;
+     width: 300px;
+     float: left;
+     padding: 50px;
+     margin-left: 15px;
+}
+
+#footer {
+     padding: 50px;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
+h1 {
+     font-weight: bold;
+     font-size: 75px;
+     margin: 0;
+}
+
+p {
+     display: inline-block;
+     margin: 0;
+}
+
+blockquote {
+     font-size: 12px;
+     float: left;
+}
+
+img {
+     padding: 15px;
+     display: block;
+     float: left;   
+}
+
+a {
+     text-decoration: none;
+     color: red;
+}
+
+body {
+     background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+    }     
