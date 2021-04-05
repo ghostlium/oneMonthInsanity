@@ -33,6 +33,11 @@ Developed @ One Month in NYC
 }
 /*top, right, bottom, left*/
 
+h1 {
+     display: inline-block;
+     width: 400px;
+}
+
 
 
 /*----------------------------------------------------------------------------- 
