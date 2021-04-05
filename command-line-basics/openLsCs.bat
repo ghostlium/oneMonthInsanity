@@ -1,6 +1,6 @@
 dir
 pause
-cd bananaImage
+cd banana-image
 pause
 dir
 pause
