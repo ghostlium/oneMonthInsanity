@@ -41,6 +41,15 @@ Developed @ One Month in NYC
 #main {
      background: SkyBlue;
      padding: 50px;
+     width: 700px;
+     float: left;
+}
+
+#sidebar {
+     background: Pink;
+     width: 300px;
+     float: left;
+     padding: 50px;
 }
 
 #footer {
