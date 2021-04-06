@@ -78,5 +78,10 @@ h2 {
   background: #E3E4E9;
 }
 
+aside.left {
+  float: left;
+}
 
-
+aside.right {
+  float: right;
+}
