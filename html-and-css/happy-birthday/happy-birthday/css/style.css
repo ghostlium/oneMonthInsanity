@@ -2,10 +2,13 @@
  * General Styles
 */
 
+html {
+  font-size: 100%;
+}
 
 body {
-  background: #DDD;
-  font-family: 'Open Sans', arial, sans-serif;
+  background: #ddd;
+  font-family: "Open Sans", arial, sans-serif;
 }
 
 * {
@@ -21,9 +24,9 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.75;
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 
 strong {
@@ -38,21 +41,20 @@ ul li {
  * Heading Styles
 */
 
-
-h1, h2 {
-  font-family: 'Lobster', cursive;
+h1,
+h2 {
+  font-family: "Lobster", cursive;
   color: #e22f8f;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 h1 {
-
-  font-size: 16px;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 /*
@@ -61,21 +63,26 @@ h2 {
 
 .hero img {
   width: 100%;
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
+  line-height: 0;
 }
-
 
 .container {
-  width: 600px;
-  margin: 100px auto;
+  width: 37.5rem;
+  margin: 6.25rem auto;
 }
 
-.intro {
-  background:#fff;
+section.intro,
+section.contact {
+  padding: 2.5rem;
 }
 
-.contact {
-  background: #E3E4E9;
+section.intro {
+  background: #fff;
+}
+
+section.contact {
+  background: #e3e4e9;
 }
 
 aside.left {
@@ -84,4 +91,8 @@ aside.left {
 
 aside.right {
   float: right;
+}
+
+aside {
+  margin-right: 1.5rem;
 }
