@@ -66,6 +66,16 @@ h2 {
  * Container Styles
 */
 
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+}
+
+
+/*
+ * Header Styles
+*/
+
 .header img {
   width: 100%;
   border-radius: 1.25rem 1.25rem 0 0;
@@ -75,10 +85,9 @@ h2 {
   line-height: 0;
 }
 
-.container {
-  width: 37.5rem;
-  margin: 6.25rem auto;
-}
+/*
+ * Section Styles
+*/
 
 section.intro {
   padding: 2.5rem;
@@ -88,6 +97,10 @@ section.intro {
   background: #fff;
   border-radius: 0 0 1.25rem 1.25rem;
 }
+
+/*
+ * Aside Styles
+*/
 
 aside.left {
   float: left;
@@ -103,7 +116,7 @@ aside {
 }
 
 /*
-Fonts
+ * Font Import
 */
 
 @font-face {
