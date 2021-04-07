@@ -80,47 +80,54 @@ header .logo {
   padding: 25px;
  }
  
- .info h1 {
+.info h1 {
   margin-bottom: 5px;
- }
+}
  
- .info .profile {
+.info .profile {
   margin-bottom: 24px;
- }
+}
  
- .info .owner-details img {
+.info .owner-details img {
   border-radius: 50%;
   margin-bottom: 6px;
- }
- .info h2.relationship, .info h2.name {
+}
+.info h2.relationship, .info h2.name {
   color: #909597;
   margin-bottom: 3px;
- }
- 
- .info h2.name {
+}
+
+.info h2.name {
   font-weight: bold;
- }
- 
- .info p.location {
+}
+
+.info p.location {
   margin-bottom: 20px;
- }
- 
- .info .icon {
+}
+
+.info .icon {
   float: left;
   width: 33.3%;
- }
- 
- .info .icon img {
+}
+
+.info .icon img {
   height: 30px;
   margin-bottom: 3px;
- }
- 
- .info .booking h2 {
+}
+
+.info .booking h2 {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 13px;
- }
- 
- .info h2.price time {
+}
+
+.info h2.price time {
   font-size: 16px;
- }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .info{
+    background: red;
+  }
+}
