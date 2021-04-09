@@ -17,3 +17,15 @@ hamilton_quote = "Well, the word got around, they said, \"This kid's insane, man
 print(hamilton_quote)
 
 print("""Well, the word got around, they said, "This kid's insane, man""")
+
+name = "Mattan Griffel"
+orphan_fee = 200
+teddy_bear_fee = 121.8
+
+total = orphan_fee + teddy_bear_fee
+
+# print(name, "the total will be", total)
+print(f"{name} the total will be {total}")
+
+# print(name, "the total will be", total)
+print(f"{name} the total will be ${total:.2f}")
