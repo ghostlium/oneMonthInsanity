@@ -28,3 +28,11 @@ for x in range(0,10):
     squareNum = x+1
     square = squareNum*squareNum
     print(f"the square of {squareNum} is {square}")
+
+animals = ['bear', 'tiger', 'penguin', 'zebra']
+first_animal = animals[0]
+print(first_animal)
+third_animal = animals[2]
+print(third_animal)
+
+print("They're are this many things:", len(random_things))
