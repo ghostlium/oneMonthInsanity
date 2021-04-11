@@ -4,7 +4,7 @@
 
 states = {'NY': 'New York', 'PA': 'Pennsylvania', 'CA': 'California'}
 
-print(states[NY])
+print(states["NY"])
 
 # user = ['Mattan', 70, 10.5, 'Brown', 'Brown']
 user = {'name': 'Mattan', 'height': 70, 'shoe size': 10.5, 'hair': 'Brown', 'eyes': 'Brown'}
@@ -24,6 +24,8 @@ mattan = {'name': 'Mattan', 'height': 70, 'shoe size': 10.5, 'hair': 'Brown', 'e
 chris = {'name': 'Chris', 'height': 68, 'shoe size': 10, 'hair': 'Brown', 'eyes': 'Brown'}
 
 sarah = {'name': 'Sarah', 'height': 72, 'shoe size': 8, 'hair': 'Brown', 'eyes': 'Brown'}
+
+people = [mattan, chris, sarah]
 
 print(people)
 
