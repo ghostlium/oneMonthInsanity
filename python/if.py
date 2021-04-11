@@ -1,12 +1,9 @@
-answer = input("Do you want to hear a joke? ")
+answer = input("Do you want to hear a joke? ").lower()
 
-affirmative_responses = ["yes", "y"]
-negative_responses = ["no", "n"]
-
-if answer.lower() in affirmative_responses:
+if answer.lower() == "yes":
     print("I'm against picketing, but I don't know how to show it.")
     # Mitch Hedburg (RIP)
-elif answer.lower() in negative_responses:
+elif answer.lower() == "no":
     print("Fine.")
 else:
     print("I don't understand.")
