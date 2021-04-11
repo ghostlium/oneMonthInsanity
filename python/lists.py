@@ -24,7 +24,7 @@ for person in people:
     print("Person is:", person)
 
 square = 0
-for x in range(10):
+for x in range(0,10):
     squareNum = x+1
     square = squareNum*squareNum
     print(f"the square of {squareNum} is {square}")
