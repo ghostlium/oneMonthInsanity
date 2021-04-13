@@ -20,7 +20,7 @@ def sort_sentence(sentence):
 # Prints the first word after popping it off
 def print_first_word(words):
     word = words.pop(0)
-    print(wor)
+    print(word)
 
 # Prints the last word after popping it off
 def print_last_word(words):
@@ -30,7 +30,7 @@ def print_last_word(words):
 # Prints the first and last words of the sentence
 def print_first_and_last_word(sentence):
     words = break_words(sentence)
-    print_first_word(word)
+    print_first_word(words)
     print_last_word(words)
 
 
@@ -62,7 +62,7 @@ def print_last_verse():
     print("Go to the store and buy some more,", end=' ')
     print("99 bottles of beer on the wall.\n")
 
-# sing(bottles)
+sing(bottles_of_beer)
 
 
 sentence = "I think it's interesting that 'cologne' rhymes with 'alone'"
@@ -70,9 +70,9 @@ sentence = "I think it's interesting that 'cologne' rhymes with 'alone'"
 words = break_words(sentence)
 sorted_words = sort_sentence(sentence)
 
-print(f"\"{sentence}\" has {words.format(sentence, count_words(words))}\"")
+#print(f"\"{sentence}\" has {words.format(sentence, count_words(words))}\"")
 print("The words are:", words)
-print("The sorted words are:", sort_words)
+print("The sorted words are:", sorted_words)
 
 print_first_word(words)
 print_last_word(words)
